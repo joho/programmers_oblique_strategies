@@ -1,0 +1,90 @@
+Verify your fears, explicitly. Are you stuck because you're worried something
+will run too slow, and you don't know how to get around it? Verify that the
+case actually runs slow. It might not. The problem may not exist at all. Don't
+allow yourself to create a ridge of inflatable mountains.
+%
+Keep calm. If your fears are real, don't panic. Terrible problems often have
+simple solutions. What looms large one moment may be only a few lines of code
+the next.
+%
+If you see ten troubles coming down the road, you can be sure that nine will
+run into the ditch before they reach you.
+Calvin Coolidge
+Take a closer look. When was the last time you looked concretely at the
+abstract thing you're working with? Add more debugging output. Gather more data.
+%
+Is it the bug you think it is? "Something else" that's broken can make
+something that works look broken. Or make something broken more broken.
+%
+Is it a typo? The wrong variable name in otherwise working code can trigger a
+hunt far from where the problem is.
+%
+Stop and think. Many problems need to be solved on paper first.
+%
+If you lack motivation, find the most interesting thing in the project, start
+on that, and branch from there.
+%
+Work append-only. Don't worry about mistakes. Don't worry about revising. Later
+on is when you can go back and edit.
+%
+Revisions keep you covering the same ground, but working append-only keeps you
+focused on your destination. Re-review causes you to internalize work. You
+don't want to internalize prematurely because the work might be wrong. You want
+to look at the work with fresh eyes later, and you can't do that if it's
+memorized.
+%
+Run through the thornbushes. If many small, nagging, potentially interlocked,
+hard-to-resolve details are preventing forward progress, put those thoughts
+aside and just start. Get which details you can. Then go back and untangle
+everything.
+%
+Change your mind. If something seems wrong, maybe it is. Chuck it and start
+over.
+%
+Power through. This should always be your last choice. Building a staircase out
+of sugarcubes is draining.
+%
+Reapproaches
+Look for ways to chain tools. Can I reuse any of my tools that I built? Can I
+combine them in novel ways to solve the problem?
+%
+It doesn't matter how "heavy duty" the tool is or how hard to build it was. The
+performance penalty is usually negligible while the savings in effort can be
+substantial.
+%
+Sometimes a series of hacks can bootstrap a superior solution.
+%
+Backtrack. If an avenue appears exhausted, instead of continually retracing
+your steps, backtrack. Your assumption must be wrong. Change your assumption,
+or go up a level of abstraction and try a different approach. Know good and bad
+resistance.
+%
+flip the problem around. Look at it from a different perspective.
+%
+You cannot dig a hole in a different place by digging the same hole deeper.
+Edward de Bono, who coined the term "lateral thinking"
+Work forward from where the unfinished part of the code suggests you should.
+%
+List dependencies to determine order of completion. Order work (in the absence
+of other order) by most likely to inform later work.
+%
+Escape the usage vacuum. Development should inform other development, up to a
+point. Actual usage considerations trump. Don't go too long without witnessing
+an example of the feature you're implementing. Examine the real-world use case
+and build to it. User test.
+%
+Try the naive method first. In general, it is faster to try all the easy
+methods in order of easiness than it is to start with a hard but working method
+that isn't the easiest such. Sometimes attempts on a problem push back for a
+reason. They aren't all a challenge to your ability.
+%
+Do it both ways. Very often doing it both ways is faster than analyzing which
+is best. Now you also have experimental data instead of just theoretical. Add a
+toggle if possible. This will let you choose later. Some mistakes are cheaper
+to make than to avoid. I heard this one from John Carmack; it also appears in a
+cartoon.
+%
+Verify that your assumptions about the outside world are correct. Problems in
+tests harnesses, errors in display statements, and so on, are some of the
+worst. Hallucinations aren't the problem, whatever is causing the
+hallucinations is. See if you can trust what you're being told.

@@ -1,0 +1,31 @@
+Every bug hunt is at worst a log time search through the code base. Google the
+error message, tweak, google the new error...
+%
+Write down everything you know about the problem. The terminal points of this
+process are questions to be answered.
+%
+This process usually converges: If you're stuck, finish some remaining piece.
+Then go back and check to see what new possibilities opened up. Repeat.
+%
+Form hypothesis, test hypothesis, repeat. This is the process you use when
+you're seemingly out of possibilities.
+%
+Have opinions. It is generally better to guess wrong and check than to sit
+pondering what might be correct. If it bothers you to have potentially faulty
+opinions, mentally assign them confidence 0. At any frontier intuition beats
+proof.
+%
+Have goals and subdivide them. Test-driven development is one implementation of
+this strategy.
+%
+Do it the wrong way. If you have an idea, but know that it's wrong, build it
+the wrong way anyway. Then throw it out. This can give you a better grip for
+your next attempt.
+%
+...truth will sooner come out of error than from confusion.
+Francis Bacon, 1620
+Do something. Work on the wrong thing. Make something up. Start even if you
+don't have all the information. Inaction won't solve the problem.
+%
+Put the problem aside and work on something else. Thrashing won't solve the
+problem.
